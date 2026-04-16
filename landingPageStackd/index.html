@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stockd | Få kontroll på hva du har hjemme</title>
+  <meta
+    name="description"
+    content="Skann varene når du setter dem inn i skapet eller kjøleskapet, og få alltid oversikt over hva du har hjemme før du går i butikken."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Stockd">
+        <span class="brand-mark">L</span>
+        <span class="brand-text">Stockd</span>
+      </a>
+      <nav class="nav">
+        <a href="#hvordan">Hvordan det virker</a>
+        <a href="#fordeler">Fordeler</a>
+        <a href="#last-ned">Last ned</a>
+      </nav>
+      <a class="button button-small button-ghost" href="#last-ned">Prøv appen</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Slutt å gjette i butikken</p>
+          <h1>Vit hva du faktisk trenger før du legger noe i handlekurven.</h1>
+          <p class="lead">
+            Stockd gjør kjøkkenskap og kjøleskap søkbare. Skann strekkoden når du setter
+            inn varer hjemme, og se med én gang hva du allerede har når du står i butikken.
+          </p>
+
+          <div class="hero-actions" id="last-ned">
+            <a class="store-button app-store" href="#" aria-label="Last ned på App Store">
+              <span class="store-kicker">Last ned på</span>
+              <span class="store-name">App Store</span>
+            </a>
+            <a class="store-button play-store" href="#" aria-label="Last ned på Google Play">
+              <span class="store-kicker">Finn den på</span>
+              <span class="store-name">Google Play</span>
+            </a>
+          </div>
+
+          <ul class="hero-points">
+            <li>Unngå dobbeltkjøp av varer du allerede har hjemme</li>
+            <li>Husk hva som mangler uten mentale handlelister</li>
+            <li>Enkelt nok til at hele familien faktisk bruker det</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="device-card">
+            <div class="device-notch"></div>
+            <div class="app-screen">
+              <div class="screen-top">
+                <p class="screen-label">Hjemmelager</p>
+                <span class="status-pill live">Synkronisert</span>
+              </div>
+
+              <div class="inventory-summary">
+                <div>
+                  <p class="summary-label">Varer registrert</p>
+                  <strong>148</strong>
+                </div>
+                <div>
+                  <p class="summary-label">Mangler nå</p>
+                  <strong>6</strong>
+                </div>
+              </div>
+
+              <div class="scan-card">
+                <div class="scan-window">
+                  <div class="scan-line"></div>
+                </div>
+                <div>
+                  <p class="scan-title">Skanner melk</p>
+                  <p class="scan-copy">1L lettmelk registrert i kjøleskap</p>
+                </div>
+              </div>
+
+              <div class="shopping-card">
+                <div class="shopping-card-top">
+                  <p>Butikkmodus</p>
+                  <span class="status-pill warn">2 duplikater stoppet</span>
+                </div>
+
+                <div class="shopping-item muted">
+                  <span>Knekkebrød</span>
+                  <span>Har 2 hjemme</span>
+                </div>
+                <div class="shopping-item">
+                  <span>Tomater</span>
+                  <span>Må kjøpes</span>
+                </div>
+                <div class="shopping-item">
+                  <span>Tacolefser</span>
+                  <span>Lav beholdning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-note note-left">
+            <span class="note-value">30 min</span>
+            spart per uke på færre bomturer
+          </div>
+          <div class="floating-note note-right">
+            <span class="note-value">1 scan</span>
+            når varen settes inn hjemme
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <p>For deg som er lei av å kjøpe mer ost, mer ketchup og enda en pakke pasta "for sikkerhets skyld".</p>
+      </section>
+
+      <section class="section-grid" id="hvordan">
+        <div class="section-heading">
+          <p class="eyebrow">Hvordan det virker</p>
+          <h2>Bygget for det øyeblikket hukommelsen svikter mellom kjøleskapet og butikken.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card accent-orange">
+            <span class="feature-number">01</span>
+            <h3>Skann når du legger inn varer</h3>
+            <p>
+              Når du kommer hjem, skanner du strekkoden før varen går inn i skapet, skuffen
+              eller kjøleskapet.
+            </p>
+          </article>
+
+          <article class="feature-card accent-green">
+            <span class="feature-number">02</span>
+            <h3>Appen husker beholdningen</h3>
+            <p>
+              Du får et enkelt lager hjemme, så du slipper å stole på hukommelsen eller åpne
+              alle skapdører før handling.
+            </p>
+          </article>
+
+          <article class="feature-card accent-cream">
+            <span class="feature-number">03</span>
+            <h3>Se status mens du handler</h3>
+            <p>
+              I butikken sjekker du appen og ser hva du trenger, og hva du allerede har nok av.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="benefits" id="fordeler">
+        <div class="benefits-copy">
+          <p class="eyebrow">Hvorfor folk laster ned</p>
+          <h2>Mindre svinn. Mindre stress. Færre unødvendige kjøp.</h2>
+          <p>
+            Stockd gjør en liten vane om til en stor lettelse. Du trenger ikke være superorganisert
+            for å få oversikt. Du trenger bare å skanne når du setter varer på plass.
+          </p>
+        </div>
+
+        <div class="benefits-list">
+          <article class="benefit-row">
+            <h3>Unngå dobbeltkjøp</h3>
+            <p>Se med én gang om du allerede har varen hjemme før den havner i handlekurven.</p>
+          </article>
+
+          <article class="benefit-row">
+            <h3>Bruk mindre tid i butikken</h3>
+            <p>Ta raskere beslutninger fordi appen forteller deg hva som mangler akkurat nå.</p>
+          </article>
+
+          <article class="benefit-row">
+            <h3>Få mer kontroll hjemme</h3>
+            <p>Samle skap, kjøleskap og skuffer i én enkel oversikt som alltid er med deg.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-panel">
+        <div>
+          <p class="eyebrow">Klar for å teste?</p>
+          <h2>Gjør neste handletur enklere allerede i dag.</h2>
+          <p>
+            Last ned Stockd og begynn med å skanne varene du allerede bruker mest. Etter få dager
+            merker du forskjellen.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <a class="button button-primary" href="#">App Store</a>
+          <a class="button button-secondary" href="#">Google Play</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

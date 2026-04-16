@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personvernerklæring – Stockd</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Personvernerklæring</h1>
+  <p>Stack D shelves, efficiently</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>1. Hvem er ansvarlig</h2>
+    <p>
+      Stockd er utviklet som en personlig applikasjon. Spørsmål om personvern kan rettes til
+      <a href="mailto:sandertennstrand@gmail.com">sandertennstrand@gmail.com</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>2. Hvilke data samler vi inn</h2>
+    <p>Vi samler kun inn det som er nødvendig for at appen skal fungere:</p>
+    <ul>
+      <li><strong>E-postadresse og passord</strong> – ved registrering via Firebase Authentication.</li>
+      <li><strong>Lagerbeholdning</strong> – varer du legger til (navn, strekkode, utløpsdato, antall, kategori).</li>
+      <li><strong>Handleliste</strong> – varer du merker som manglende eller legger til manuelt.</li>
+      <li><strong>Historikk</strong> – hendelser som svinn, forbruk og innlegg, brukt til statistikk internt i appen.</li>
+      <li><strong>Husstandsinfo</strong> – en husstand-ID og liste over medlemmer (Firebase UID-er) for delt tilgang.</li>
+    </ul>
+    <p>Vi samler <strong>ikke</strong> inn posisjon, kontakter, helseopplysninger eller annen sensitiv informasjon.</p>
+  </section>
+
+  <section>
+    <h2>3. Formål og rettslig grunnlag</h2>
+    <p>Dataene behandles utelukkende for å levere appens tjenester:</p>
+    <ul>
+      <li>Holde oversikt over hjemmets matbeholdning og handleliste.</li>
+      <li>Gi statistikk og svinnhistorikk til husstandens egne brukere.</li>
+      <li>Muliggjøre deling av beholdning mellom husstandsmedlemmer.</li>
+    </ul>
+    <p>Rettslig grunnlag er oppfyllelse av avtale (GDPR art. 6 nr. 1 b) – du har selv bedt om disse funksjonene ved å bruke appen.</p>
+  </section>
+
+  <section>
+    <h2>4. Tredjeparter</h2>
+    <ul>
+      <li>
+        <strong>Google Firebase</strong> (Authentication + Firestore) – brukes til innlogging og lagring av data.
+        Data lagres i Googles datasentre (EU-regionen der mulig).
+        Se <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Googles personvernregler</a>.
+      </li>
+      <li>
+        <strong>Kassal.app</strong> – norsk dagligvaredatabase brukt til produktsøk og strekkodeoppslag.
+        Kun søkestrenger og EAN-koder sendes; ingen persondata videreformidles.
+        Se <a href="https://kassal.app/personvern" target="_blank" rel="noopener">Kassals personvernregler</a>.
+      </li>
+      <li>
+        <strong>Open Food Facts</strong> – alternativt oppslag ved strekkodeskanning.
+        Samme prinsipp som over – ingen persondata deles.
+        Se <a href="https://world.openfoodfacts.org/privacy" target="_blank" rel="noopener">Open Food Facts personvernregler</a>.
+      </li>
+    </ul>
+    <p>Ingen data selges eller deles med annonsører eller andre kommersielle tredjeparter.</p>
+  </section>
+
+  <section>
+    <h2>5. Kameratilgang</h2>
+    <p>
+      Appen ber om tilgang til kameraet utelukkende for å skanne strekkoder på matvarer.
+      Kameraet aktiveres kun når du selv initierer skanning. Ingen bilder lagres eller overføres.
+    </p>
+  </section>
+
+  <section>
+    <h2>6. Varsler (push-notifikasjoner)</h2>
+    <p>
+      Appen kan sende lokale varsler om varer som snart går ut på dato. Du kan når som helst
+      skru av varsler i enhetens systeminnstillinger. Varslene behandles lokalt på enheten og
+      sendes ikke til noen ekstern server.
+    </p>
+  </section>
+
+  <section>
+    <h2>7. Lagring og sletting</h2>
+    <p>
+      Data lagres i Firebase Firestore så lenge kontoen din er aktiv.
+      Du kan slette din konto og alle tilknyttede data ved å kontakte oss på
+      <a href="mailto:sandertennstrand@gmail.com">sandertennstrand@gmail.com</a>.
+      Sletting gjennomføres innen 30 dager.
+    </p>
+  </section>
+
+  <section>
+    <h2>8. Dine rettigheter</h2>
+    <p>Etter GDPR har du rett til å:</p>
+    <ul>
+      <li>Be om innsyn i hvilke data vi lagrer om deg.</li>
+      <li>Kreve retting av uriktige opplysninger.</li>
+      <li>Kreve sletting («retten til å bli glemt»).</li>
+      <li>Trekke tilbake samtykke der behandlingen er basert på samtykke.</li>
+      <li>Klage til Datatilsynet: <a href="https://www.datatilsynet.no" target="_blank" rel="noopener">datatilsynet.no</a>.</li>
+    </ul>
+    <p>Kontakt oss på <a href="mailto:sandertennstrand@gmail.com">sandertennstrand@gmail.com</a> for å utøve dine rettigheter.</p>
+  </section>
+
+  <section>
+    <h2>9. Endringer</h2>
+    <p>
+      Vesentlige endringer i denne erklæringen vil varsles i appen. Oppdatert versjon er alltid
+      tilgjengelig på denne siden.
+    </p>
+  </section>
+
+  <p class="updated">Sist oppdatert: april 2026</p>
+
+</main>
+
+</body>
+</html>
